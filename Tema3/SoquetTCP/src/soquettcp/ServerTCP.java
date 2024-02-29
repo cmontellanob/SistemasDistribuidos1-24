@@ -11,8 +11,6 @@ import java.io.PrintStream;
 import java.net.ServerSocket;
 import java.net.Socket;
 
-
-
 /**
  *
  * @author Carlos
@@ -26,20 +24,25 @@ public class ServerTCP {
         // TODO code application logic here
         int port = 5002;
         ServerSocket server;
+
         try {
+
             server = new ServerSocket(port);
             System.out.println("Se inicio el servidor con éxito");
-            Socket client;
-            PrintStream toClient;
-            client = server.accept(); //conexion entre cliente y servidor para comunicacion bidireccional
-            BufferedReader fromClient = new BufferedReader(new InputStreamReader(client.getInputStream())); // el lector
-            System.out.println("Cliente se conecto");
-            String recibido=fromClient.readLine();
-            System.out.println(recibido);
-            toClient = new PrintStream(client.getOutputStream());
-            toClient.println("Hola recibi:"+recibido);
+            while (true) {
+                Socket client;
+                PrintStream toClient;
+                client = server.accept(); //conexion entre cliente y servidor para comunicacion bidireccional
+                BufferedReader fromClient = new BufferedReader(new InputStreamReader(client.getInputStream())); // el lector
+                System.out.println("Cliente se conecto");
+                String recibido = fromClient.readLine();
+                System.out.println(recibido);
+                toClient = new PrintStream(client.getOutputStream());
+                toClient.println("Hola recibi:" + recibido);
+            }
         } catch (IOException ex) {
             System.out.println(ex.getMessage());
         }
+
     }
 }
