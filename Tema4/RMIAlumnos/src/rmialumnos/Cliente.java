@@ -32,7 +32,10 @@ public static void main(String[] args) throws RemoteException, AlreadyBoundExcep
         System.out.println("---------------------------");
         System.out.println("introduzca opcion");
         opcion=sc.nextInt();
+        
         System.out.println("nombre:");
+        
+        
         String nombre=sc.nextLine();
     }
       }
