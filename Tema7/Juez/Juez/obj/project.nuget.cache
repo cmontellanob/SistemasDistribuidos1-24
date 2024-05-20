@@ -1,0 +1,39 @@
+{
+  "version": 2,
+  "dgSpecHash": "C5PQ03L6/n5Coon3rQqX2XvZP+HHbNi61Me+bOiOnYAYC7+fHTAWkM3vdft1BNkJLXZ+PkPVTVzg2HokDwlu2w==",
+  "success": false,
+  "projectFilePath": "D:\\usfx\\1-2024\\SistemasDistribuidos1-24\\Tema7\\Juez\\Juez\\Juez.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "No se puede cargar el índice de servicio para el origen https://api.nuget.org/v3/index.json.",
+      "libraryId": "System.ServiceModel.Http"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "No se puede cargar el índice de servicio para el origen https://api.nuget.org/v3/index.json.",
+      "libraryId": "System.ServiceModel.Duplex"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "No se puede cargar el índice de servicio para el origen https://api.nuget.org/v3/index.json.",
+      "libraryId": "System.ServiceModel.NetTcp"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "No se puede cargar el índice de servicio para el origen https://api.nuget.org/v3/index.json.",
+      "libraryId": "System.ServiceModel.Federation"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "No se puede cargar el índice de servicio para el origen https://api.nuget.org/v3/index.json.",
+      "libraryId": "System.ServiceModel.Security"
+    }
+  ]
+}
