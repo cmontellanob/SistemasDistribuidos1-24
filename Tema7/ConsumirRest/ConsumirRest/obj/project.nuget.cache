@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "262phlZOEVQfPjaBRmmsuxLVJmw2OmuDwdDkIN/WKkBVtozykXklE+e+lL+rHMKxVt/0vJnsy+2fzyHLo8/7KA==",
+  "success": true,
+  "projectFilePath": "D:\\usfx\\1-2024\\SistemasDistribuidos1-24\\Tema7\\ConsumirRest\\ConsumirRest\\ConsumirRest.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Carlos\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
